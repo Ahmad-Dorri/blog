@@ -1,3 +1,4 @@
+import Posts from './components/Posts';
 import ProfileImage from './components/ProfileImage';
 export default function HomePage() {
   return (
@@ -7,6 +8,7 @@ export default function HomePage() {
         <span className="font-bold text-[22px]"> Ahmad Dorri 👋.</span>
       </p>
       <ProfileImage />
+      <Posts />
     </main>
   );
 }
